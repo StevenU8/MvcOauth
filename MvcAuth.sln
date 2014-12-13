@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcAuth", "MvcAuth\MvcAuth.csproj", "{3249A293-AC04-4658-842E-F361498D7FB1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{8E95FB19-CC99-47FE-A5B2-40286FC897B8}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{EBB91E9F-4AF6-43A8-BCB6-009B774722F3}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\MvcAuth-WAWS-dev.json = PublishScripts\Configurations\MvcAuth-WAWS-dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3249A293-AC04-4658-842E-F361498D7FB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3249A293-AC04-4658-842E-F361498D7FB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3249A293-AC04-4658-842E-F361498D7FB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3249A293-AC04-4658-842E-F361498D7FB1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EBB91E9F-4AF6-43A8-BCB6-009B774722F3} = {8E95FB19-CC99-47FE-A5B2-40286FC897B8}
+	EndGlobalSection
+EndGlobal
